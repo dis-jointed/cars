@@ -1,0 +1,82 @@
+.news__letter {
+  margin-inline: 100px;
+  margin-bottom: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.news__letter h2 {
+  position: absolute;
+  top: 10%;
+  color: white;
+  left: 10%;
+}
+
+.news__letter p {
+  position: absolute;
+  color: white;
+  z-index: 20;
+  transform: translate(132px, -320px);
+}
+.input {
+  position: absolute;
+  transform: translate(132px, -270px);
+  background: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 6px;
+  padding-inline: 6px;
+  padding-block: 2px;
+}
+.input img {
+  width: 33px;
+  height: 32px;
+}
+
+.input input {
+  width: 300px;
+  background: transparent;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.bmw {
+  width: 100%;
+  height: 400px;
+  overflow-x: hidden;
+  filter: opacity(70%) grayscale(20%);
+  z-index: 1;
+}
+
+.news__letter button {
+  position: absolute;
+  left: 10%;
+  top: 52%;
+  background-color: tomato;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.news__letter button:hover {
+  cursor: pointer;
+}
+.hands {
+  width: 600px;
+  height: 470px;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  opacity: 90%;
+  transform: translateX(128px);
+}
+
+.salah {
+  width: 1200px;
+  height: 628px;
+  filter: grayscale(100%);
+}

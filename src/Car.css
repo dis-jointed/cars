@@ -1,0 +1,95 @@
+.car {
+    width: 300px;
+    height: 320px;
+    display: block;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.car img{
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+}
+
+.car:hover{
+    box-shadow: 0px 0px 20px red;
+    transition: box-shadow 1s ease-in-out;
+}
+
+.carnamee{
+    width: calc(100% - 80px);
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    left: 13%;
+    top: 54%;
+    
+}
+
+.carnamee p{
+    color: white;
+    margin-inline-start: 30%;
+    margin-bottom: 100px;
+    font-size: 24px;
+    transform: translateY(-19px);
+}
+
+.car__details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.car__details p {
+    color: black;
+    padding-inline: 30px;
+}
+
+
+.model__details::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    margin-left: 20px;
+    background: gray;
+    opacity: .4;
+}
+
+.fuel__details::after {
+    content: '';
+   position: absolute;
+    width: 1px;
+    height: 20px;
+    margin-left: 20px;
+    background: gray;
+    opacity: .4;
+}
+
+.pricing__cont{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing__cont :nth-child(1){
+    color: black;
+    position: absolute;
+    font-weight: 800;
+    font-style: bold;
+    left: 10px;
+}
+
+.pricing__cont :nth-child(2){
+    color: red;
+    position: absolute;
+    right: 10px;
+}

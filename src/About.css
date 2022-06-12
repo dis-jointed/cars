@@ -1,0 +1,20 @@
+.about{
+    margin: 40px 20px;
+    background-color: #F8F8F8;
+}
+
+article img {
+    float: right;
+    object-fit: contain;
+    width: 600px;
+    height: 300px;
+}
+
+.services__about {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}

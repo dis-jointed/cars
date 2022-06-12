@@ -1,0 +1,30 @@
+.latest__listing{
+    padding-block: 40px;
+    width: 100%;
+    height: fit-content;
+}
+
+.latest__listing h2{
+    color: black;
+    margin-left: 40%;
+    cursor: none
+}
+
+.latest__listing h2::after{
+    display: block;
+    content: "";
+    background-color: tomato;
+    width: 70px;
+    height: 2px;
+    margin-left: 4%;
+}
+
+.latest__listing button{
+    width: 100px;
+    height: fit-content;
+    padding: 5px;
+    margin-top: 100px;
+    color: white;
+    background-color: tomato;
+    margin-left: 50%;
+}
